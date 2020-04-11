@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f5d172-c281-4579-a990-a52e668e77e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -20,6 +22,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -36,10 +43,79 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProgramTest">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="Stock-Statement-Generator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stock-Statement-Generator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProgramTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTest.parsePersonObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stock-Statement-Generator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProgramTest" />
+      <option name="METHOD_NAME" value="parsePersonObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTest.readJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stock-Statement-Generator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProgramTest" />
+      <option name="METHOD_NAME" value="readJSON" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramTest.writeToPDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Stock-Statement-Generator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProgramTest" />
+      <option name="METHOD_NAME" value="writeToPDF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProgramTest" />
+        <item itemvalue="JUnit.ProgramTest.readJSON" />
+        <item itemvalue="JUnit.ProgramTest.parsePersonObject" />
+        <item itemvalue="JUnit.ProgramTest.writeToPDF" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,9 +131,85 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="181" key="#Project_Structure" timestamp="1586551298699">
+    <state x="1032" y="181" key="#Project_Structure" timestamp="1586640735498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586551298699" />
+    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586640735498" />
+    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586649171038">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586649171038" />
+    <state x="246" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586646593276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="246" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586646593276" />
+    <state x="210" y="278" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586642955005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="278" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586642955005" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1586640142886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586640142886" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1586649393357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586649393357" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1586649393357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586649393357" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1586649393357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586649393357" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1586649393357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586649393357" />
+    <state width="914" height="340" key="GridCell.Tab.1.bottom" timestamp="1586644288203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586644288203" />
+    <state width="914" height="340" key="GridCell.Tab.1.center" timestamp="1586644288203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586644288203" />
+    <state width="914" height="340" key="GridCell.Tab.1.left" timestamp="1586644288202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586644288202" />
+    <state width="914" height="340" key="GridCell.Tab.1.right" timestamp="1586644288203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586644288203" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586551706006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586551706006" />
+    <state x="1211" y="241" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586644788175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1211" y="241" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586644788175" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1586641294852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1586641294852" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-2" timestamp="1586646000014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1586646000014" />
+    <state x="335" y="290" key="new project wizard" timestamp="1586640149537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="335" y="290" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586640149537" />
+    <state x="186" y="159" key="refactoring.ChangeSignatureDialog" timestamp="1586643306064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="186" y="159" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586643306064" />
+    <state x="136" y="248" key="run.anything.popup" timestamp="1586643931636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="248" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586643931636" />
   </component>
 </project>

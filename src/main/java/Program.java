@@ -16,7 +16,7 @@ public class Program {
         writeToPDF();
     }
 
-    private static void writeToHTML(String[] pieces, ArrayList<String[]> table) {
+    public static void writeToHTML(String[] pieces, ArrayList<String[]> table) {
         //pieces = {acctNum, first name, last name, ssn, email, phone, balance}
         /*table =
         {
@@ -24,15 +24,20 @@ public class Program {
             symbol
           count
           price
+          total
           },
           { type
           symbol
           count
           price
+          total
           }
         }
         */
         try {
+
+            File htmlDirectory = new File("htmlFiles");
+            htmlDirectory.mkdir();
 
             OutputStream outputStream = new FileOutputStream("htmlFiles/" + pieces[0] + ".html");
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream);
@@ -76,7 +81,10 @@ public class Program {
         return String.format("%s %s, %s", new SimpleDateFormat("MMMM").format(calendar.getTime()), calendar.get(Calendar.DATE), calendar.get(Calendar.YEAR));
     }
 
-    public static void writeToPDF() {
+    public static String writeToPDF() {
+        File pdfDirectory = new File("pdfFiles");
+        pdfDirectory.mkdir();
+
         File htmlFilesDir = new File("htmlFiles");
         File[] files = htmlFilesDir.listFiles();
 
@@ -98,6 +106,7 @@ public class Program {
                 }
             }
         }
+        return null;
     }
 
     @SuppressWarnings("unchecked")
@@ -116,7 +125,7 @@ public class Program {
         }
     }
 
-    public static void parsePersonObject(JSONObject person) {
+    public static ArrayList<ArrayList<String[]>> parsePersonObject(JSONObject person) {
 
         String[] pieces = getHolderInfo(person);
 
@@ -125,6 +134,16 @@ public class Program {
         ArrayList<String[]> tablePieces = getTablePieces(table);
 
         writeToHTML(pieces, tablePieces);
+
+        ArrayList<String[]> s = new ArrayList<>();
+        s.add(pieces);
+
+
+        ArrayList<ArrayList<String[]>> finishedList = new ArrayList<>();
+        finishedList.add(s);
+        finishedList.add(tablePieces);
+
+        return finishedList;
     }
 
     @SuppressWarnings("unchecked")
@@ -140,8 +159,8 @@ public class Program {
         String[] info = new String[7];
         info[0] = person.get("account_number").toString();
         info[1] = person.get("first_name").toString();
-        info[3] = person.get("ssn").toString();
-        info[2] = person.get("last_name").toString();
+        info[2] = person.get("ssn").toString();
+        info[3] = person.get("last_name").toString();
         info[4] = person.get("email").toString();
         info[5] = person.get("phone").toString();
         info[6] = person.get("beginning_balance").toString();
