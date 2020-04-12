@@ -168,7 +168,6 @@ public class Program {
         return info;
     }
 
-
     public static String[] parseTableObject(JSONObject tableObject) {
         double count = Double.parseDouble(tableObject.get("count_shares").toString());
         double price = Double.parseDouble(tableObject.get("price_per_share").toString().substring(1));

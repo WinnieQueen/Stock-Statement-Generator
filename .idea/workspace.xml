@@ -4,6 +4,7 @@
     <list default="true" id="f0f5d172-c281-4579-a990-a52e668e77e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_transactions.by.account.holder.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +136,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586640735498" />
-    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586649171038">
+    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586650313126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586649171038" />
+    <state x="93" y="100" width="774" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586650313126" />
     <state x="246" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586646593276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -211,5 +212,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="136" y="248" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586643931636" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Program.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Program.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
